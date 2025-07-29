@@ -1,0 +1,2 @@
+create-jdbc-connection-pool --restype=javax.sql.DataSource --datasourceclassname=com.mysql.cj.jdbc.MysqlDataSource --property user=libraryuser:password=librarypass:databaseName=librarydb:serverName=db:port=3306 LibraryPool
+create-jdbc-resource --connectionpoolid LibraryPool jdbc/librarydb

@@ -1,0 +1,5 @@
+com/example/library/CorsFilter.class
+com/example/library/ApplicationConfig.class
+com/example/library/entity/Book.class
+com/example/library/rest/BookResource.class
+com/example/library/ejb/BookService.class
